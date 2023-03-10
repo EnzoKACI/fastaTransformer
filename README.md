@@ -9,3 +9,5 @@ It was implemented in a jupyter notebook context where it was part of a pipeline
 in the main French National COVID tracking initiative: EMERGEN.
 
 The mentioned notebook had to stay private for corporate reasons but can be shared on-demand for professional inquiries.
+
+Critics: most constants are hardcoded, code is not integrated in its normal workflow (that stays as a closed source repo)
