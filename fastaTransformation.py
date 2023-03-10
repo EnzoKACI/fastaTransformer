@@ -30,8 +30,7 @@ for i in range(len(records_list)):
         records_list[i].id = excelDict[virNameCol][checkedIndex]
         records_list[i].name = excelDict[virNameCol][checkedIndex]
         records_list[i].description = excelDict[virNameCol][checkedIndex]
-    else:
-        continue
+
 
 #once we updated the fasta file we can save it with a specific name to imply the change
 fastaFile = input_file['metadata']['name']
