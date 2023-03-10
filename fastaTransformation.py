@@ -5,7 +5,7 @@ from Bio import SeqIO
 #Setting up excel file format: columns of interest, either based on name or index (we use the most stable property of each)
 
 barcodeCol = 0
-virNameCol = "En-tête de la séquence dans le fichier fasta"
+virNameCol = "fastaFile header"
 excelSheet = pd.read_excel('path/to/the/file.xlsx') #specific table extracted using Pandas library
 
 #transforming the data into the required structures
